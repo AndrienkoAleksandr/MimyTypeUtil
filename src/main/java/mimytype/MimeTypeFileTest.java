@@ -10,7 +10,7 @@ public class MimeTypeFileTest {
 
     public static void main(String[] args) {
         FileTypeMap fileTypeMap = MimetypesFileTypeMap.getDefaultFileTypeMap();
-        System.out.println(fileTypeMap.getContentType("txt"));
+        System.out.println(fileTypeMap.getContentType("txt"));//some test
     }
 
 }
